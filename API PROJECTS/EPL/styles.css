@@ -1,0 +1,52 @@
+
+
+.content.container-fluid{
+ display:flex;
+ flex-direction: row;
+ justify-content: space-between;
+}
+.scrollable {
+ 
+    width: fit-content;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    height: 600px;
+    overflow-y: scroll;
+    text-align: center;
+    margin: 10px;
+    
+    
+    }
+    .scrollable thead th {
+        position: sticky; /* Make the header cells sticky */
+        top: 0; /* Set the top position to 0 */
+        padding: 5;
+      }
+
+
+.card-container{
+    width: 1000px;
+    height: 600px;
+    margin:10px ;
+    overflow-y: scroll;
+    
+
+   
+    vertical-align: top;
+    color: black;
+    position: relative;
+
+
+    display: flex; /* enable flexbox layout */
+    flex-wrap: wrap;
+   
+ 
+ 
+}
+.card-body
+{
+  width: 300px;
+  height: 400px;
+
+}
